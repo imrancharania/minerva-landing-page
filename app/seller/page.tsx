@@ -41,7 +41,7 @@ export default function SellerRoute() {
         <div className="hidden sm:block">
           <img
             className="rounded-3xl"
-            src="/sellerHero.jpg"
+            src="sellerHero.jpg"
             width={400}
             height={600}
             alt="Hero image"
@@ -61,7 +61,7 @@ export default function SellerRoute() {
         <div className="text-center m-12">
           <img
             className="rounded-full mx-auto"
-            src="/products.jpg"
+            src="products.jpg"
             width={240}
             height={240}
             alt="Product image"
@@ -76,7 +76,7 @@ export default function SellerRoute() {
         <div className="text-center m-12">
           <img
             className="rounded-full mx-auto"
-            src="/match.jpg"
+            src="match.jpg"
             width={240}
             height={240}
             alt="Match image"
@@ -92,7 +92,7 @@ export default function SellerRoute() {
         <div className="text-center m-12">
           <img
             className="rounded-full mx-auto"
-            src="/checkout.jpg"
+            src="checkout.jpg"
             width={240}
             height={240}
             alt="Checkout image"

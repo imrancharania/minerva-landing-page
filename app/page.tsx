@@ -53,7 +53,7 @@ export default function Home() {
         <div className="text-center m-12">
           <img
             className="rounded-full mx-auto"
-            src="/products.jpg"
+            src="products.jpg"
             width={240}
             height={240}
             alt="Product image"
@@ -68,7 +68,7 @@ export default function Home() {
         <div className="text-center m-12">
           <img
             className="rounded-full mx-auto"
-            src="/ingredients.jpg"
+            src="ingredients.jpg"
             width={240}
             height={240}
             alt="Ingredients image"
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="text-center m-12">
           <img
             className="rounded-full mx-auto"
-            src="/checkout.jpg"
+            src="checkout.jpg"
             width={240}
             height={240}
             alt="Checkout image"
