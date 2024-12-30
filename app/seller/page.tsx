@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import {
   Card,
   CardContent,
@@ -14,7 +14,9 @@ export default function SellerRoute() {
     <div>
       <section className="relative w-full px-4 md:px-12 flex items-center justify-center mt-12 mb-12">
         <div className="max-w-3xl">
-          <p className="text-normal text-muted-foreground font-bold">AI-POWERED SKINCARE MARKETPLACE</p>
+          <p className="text-normal text-muted-foreground font-bold">
+            AI-POWERED SKINCARE MARKETPLACE
+          </p>
           <h1 className="text-6xl font-semibold mt-8 leading-tight sm:leading-none">
             <span className="text-primary underline underline-offset-8 decoration-4 decoration-wavy">
               Stand out
@@ -37,7 +39,7 @@ export default function SellerRoute() {
           </Button>
         </div>
         <div className="hidden sm:block">
-          <Image
+          <img
             className="rounded-3xl"
             src="/sellerHero.jpg"
             width={400}
@@ -57,7 +59,7 @@ export default function SellerRoute() {
       </section>
       <section className="relative w-full px-4 md:px-12 sm:flex justify-center mt-12 mb-12">
         <div className="text-center m-12">
-          <Image
+          <img
             className="rounded-full mx-auto"
             src="/products.jpg"
             width={240}
@@ -72,12 +74,12 @@ export default function SellerRoute() {
           </p>
         </div>
         <div className="text-center m-12">
-          <Image
+          <img
             className="rounded-full mx-auto"
             src="/match.jpg"
             width={240}
             height={240}
-            alt="Ingredients image"
+            alt="Match image"
           />
           <p className="text-normal text-muted-foreground font-bold mt-8 mb-4">
             WE&apos;LL MAKE RECOMMENDATIONS
@@ -88,12 +90,12 @@ export default function SellerRoute() {
           </p>
         </div>
         <div className="text-center m-12">
-          <Image
+          <img
             className="rounded-full mx-auto"
             src="/checkout.jpg"
             width={240}
             height={240}
-            alt="Wishlist image"
+            alt="Checkout image"
           />
           <p className="text-normal text-muted-foreground font-bold mt-8 mb-4">
             CUSTOMERS ARE SENT TO YOU

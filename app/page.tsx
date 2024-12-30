@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -33,9 +33,9 @@ export default function Home() {
           </Button>
         </div>
         <div className="hidden sm:block">
-          <Image
+          <img
             className="rounded-3xl"
-            src="/consumerHero.jpg"
+            src="consumerHero.jpg"
             width={400}
             height={600}
             alt="Hero image"
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
       <section className="relative w-full px-4 md:px-12 md:flex justify-center mt-12 mb-12">
         <div className="text-center m-12">
-          <Image
+          <img
             className="rounded-full mx-auto"
             src="/products.jpg"
             width={240}
@@ -66,7 +66,7 @@ export default function Home() {
           </p>
         </div>
         <div className="text-center m-12">
-          <Image
+          <img
             className="rounded-full mx-auto"
             src="/ingredients.jpg"
             width={240}
@@ -81,12 +81,12 @@ export default function Home() {
           </p>
         </div>
         <div className="text-center m-12">
-          <Image
+          <img
             className="rounded-full mx-auto"
             src="/checkout.jpg"
             width={240}
             height={240}
-            alt="Wishlist image"
+            alt="Checkout image"
           />
           <p className="text-normal text-muted-foreground font-bold mt-8 mb-4">
             SEARCH YOUR WISHLIST
