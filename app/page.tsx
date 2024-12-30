@@ -42,7 +42,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <hr className="mx-48" />
+      <hr className="sm:mx-48 mx-12" />
       <section className="text-center mt-12">
         <p className="text-normal text-muted-foreground font-bold">
           HOW IT WORKS
