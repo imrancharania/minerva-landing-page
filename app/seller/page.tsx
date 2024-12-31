@@ -111,7 +111,7 @@ export default function SellerRoute() {
         <h1 className="text-3xl font-semibold mt-4 px-4">
           Simple, transparent pricing.
         </h1>
-        <div className="flex sm:flex-row flex-col items-center mt-12 mb-12">
+        <div className="flex sm:flex-row flex-col items-center justify-center mt-12 mb-12">
           <Card className="w-[350px] sm:m-12 mt-4">
             <CardHeader>
               <CardTitle className="text-normal text-primary font-bold">
