@@ -58,7 +58,7 @@ export default function SellerRoute() {
         </h1>
       </section>
       <section className="relative w-full px-4 md:px-12 sm:flex justify-center mt-12 mb-12">
-        <div className="text-center m-12">
+        <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="products.jpg"
@@ -73,7 +73,7 @@ export default function SellerRoute() {
             Add ingredients, images, and variants with links to your store.
           </p>
         </div>
-        <div className="text-center m-12">
+        <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="match.jpg"
@@ -89,7 +89,7 @@ export default function SellerRoute() {
             concerns.
           </p>
         </div>
-        <div className="text-center m-12">
+        <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="checkout.jpg"
@@ -111,8 +111,8 @@ export default function SellerRoute() {
         <h1 className="text-3xl font-semibold mt-4 px-4">
           Simple, transparent pricing.
         </h1>
-        <div className="sm:flex justify-center mt-12 mb-12">
-          <Card className="w-[350px] sm:m-12 m-5">
+        <div className="sm:flex justify-center justify-items-center mt-12 mb-12">
+          <Card className="w-[350px] sm:m-12 mt-4">
             <CardHeader>
               <CardTitle className="text-normal text-primary font-bold">
                 SUBSCRIPTION
@@ -125,7 +125,7 @@ export default function SellerRoute() {
               <span className="text-6xl font-semibold">$39</span> / mo
             </CardContent>
           </Card>
-          <Card className="w-[350px] sm:m-12 m-5">
+          <Card className="w-[350px] sm:m-12 mt-4">
             <CardHeader>
               <CardTitle className="text-normal text-primary font-bold">
                 COMMISSION

@@ -49,8 +49,8 @@ export default function Home() {
         </p>
         <h1 className="text-5xl font-semibold px-4 mt-4">Easy - just ask.</h1>
       </section>
-      <section className="relative w-full px-4 md:px-12 md:flex justify-center mt-12 mb-12">
-        <div className="text-center m-12">
+      <section className="relative w-full md:px-12 md:flex justify-center mt-12 mb-12">
+        <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="products.jpg"
@@ -65,7 +65,7 @@ export default function Home() {
             &quot;I&apos;m looking for something to help me with my acne.&quot;
           </p>
         </div>
-        <div className="text-center m-12">
+        <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="ingredients.jpg"
@@ -80,7 +80,7 @@ export default function Home() {
             &quot;What&apos;s the best ingredient for improving dry skin?&quot;
           </p>
         </div>
-        <div className="text-center m-12">
+        <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="checkout.jpg"
