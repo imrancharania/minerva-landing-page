@@ -106,12 +106,12 @@ export default function SellerRoute() {
         </div>
       </section>
       <hr className="sm:mx-48 mx-12" />
-      <section className="text-center mt-12">
+      <section className="text-center items-center mt-12">
         <p className="text-normal text-muted-foreground font-bold">PRICING</p>
         <h1 className="text-3xl font-semibold mt-4 px-4">
           Simple, transparent pricing.
         </h1>
-        <div className="sm:flex justify-center justify-items-center mt-12 mb-12">
+        <div className="flex sm:flex-row flex-col items-center mt-12 mb-12">
           <Card className="w-[350px] sm:m-12 mt-4">
             <CardHeader>
               <CardTitle className="text-normal text-primary font-bold">
