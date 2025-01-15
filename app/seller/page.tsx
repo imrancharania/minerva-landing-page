@@ -58,7 +58,8 @@ export default function SellerRoute() {
         </h1>
       </section>
       <section className="relative w-full px-4 md:px-12 sm:flex justify-center mt-12 mb-12">
-        <div className="text-center mt-12 mb-12 md:mx-12">
+        <video width="1000" height="600" playsInline autoPlay loop muted src="demo.mp4" />
+        {/* <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
             src="products.jpg"
@@ -103,7 +104,7 @@ export default function SellerRoute() {
           <p className="font-semibold mx-auto w-[300px]">
             Ready to purchase customers are sent directly to your store.
           </p>
-        </div>
+        </div> */}
       </section>
       <hr className="sm:mx-48 mx-12" />
       <section className="text-center items-center mt-12">
