@@ -58,7 +58,16 @@ export default function SellerRoute() {
         </h1>
       </section>
       <section className="relative w-full px-4 md:px-12 sm:flex justify-center mt-12 mb-12">
-        <video width="1000" height="600" playsInline autoPlay loop muted src="demo.mp4" />
+        <video
+          width="1000"
+          height="600"
+          playsInline
+          controls
+          controlsList="nofullscreen nodownload noremoteplayback noplaybackrate"
+          muted
+          disablePictureInPicture
+          src="demo.mp4"
+        />
         {/* <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"

@@ -16,8 +16,7 @@ export function Navbar() {
           <img src="onesta-logo.png" width={200} height={100} alt="logo" />
         </Link>
       </div>
-      <div className="hidden md:flex col-span-6 gap-x-12">
-      </div>
+      <div className="hidden md:flex col-span-6 gap-x-12"></div>
       <div className="flex items-center gap-x-2 ms-auto md:col-span-3">
         <Button variant="outline" asChild>
           <Link

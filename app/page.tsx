@@ -50,7 +50,16 @@ export default function Home() {
         <h1 className="text-5xl font-semibold px-4 mt-4">Easy - just ask.</h1>
       </section>
       <section className="relative w-full md:px-12 md:flex justify-center mt-12 mb-12">
-        <video width="1000" height="600" playsInline autoPlay loop muted src="demo.mp4" />
+        <video
+          width="1000"
+          height="600"
+          playsInline
+          controls
+          controlsList="nofullscreen nodownload noremoteplayback noplaybackrate"
+          muted
+          disablePictureInPicture
+          src="demo.mp4"
+        />
         {/* <div className="text-center mt-12 mb-12 md:mx-12">
           <img
             className="rounded-full mx-auto"
